@@ -1,2 +1,2 @@
 # PYTHON-ChaiCode
-All core python from Chai Aur Codr
+All core python from Chai Aur Code
