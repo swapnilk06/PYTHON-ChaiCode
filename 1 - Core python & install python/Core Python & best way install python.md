@@ -1,15 +1,18 @@
+(27-12-24)
+
 --------------
-1 - Intro - Python Language Foundation
+### 1 - Intro - Python Language Foundation
+
 --------------
 
-Q. - Why python language made?
+Q. - Why python language made? </br>
 =>
-- Python is an a language that not highly theorotical while learning.
-- Python is a Code Oriented during written.
-- Python are Optimized, bignner friendly, straight forward functionality.
-- Not include javascript like odd behaviour & it not like c++ pointer management => these reasons python language provide balance to you.
+- Python is an a language that <b>"not highly theorotical while learning."</b>
+- Python is a <b>Code Oriented</b> during written.
+- Python are Optimized, beginner friendly, straight forward functionality.
+- Python not include javascript like odd behaviour & it not like c++ pointer management => <b>these reasons python language provide balance to you.</b>
 
-*NOTE :- Research python behind the scenes.
+> *NOTE :- <b>Research python behind the scenes.</b>
 
 ---------------
 2 - Best Way To Install Python 
