@@ -1,8 +1,7 @@
 (27-12-24)
 
 --------------
-### 1 - Intro - Python Language Foundation
-
+### 1 - Intro : Python Language Foundation
 --------------
 
 Q. - Why python language made? </br>
@@ -15,8 +14,10 @@ Q. - Why python language made? </br>
 > *NOTE :- <b>Research python behind the scenes.</b>
 
 ---------------
-2 - Best Way To Install Python 
+### 2 - Best Way To Install Python 
 ---------------
+
+> Python.org
 
 - Installation
 - Online code
