@@ -1,4 +1,4 @@
-(27-12-24)
+`(27-12-24)`
 
 ## 1 - Intro : Python Language Foundation
 
@@ -111,12 +111,32 @@ chai("ginger tea")
 ```
 
 - After running 2 files below question stand out - 
-#### Q. - Why python automatic create ```__pycache__``` folder & whats work of ```__pycache__``` folder?
+#### Q. - Why python automatic create `__pycache__` folder & whats work of `__pycache__` folder?
 
 
 ----
 <br>
 
-## 3 - 
+`(9-1-25)`
+
+## 3 - Python inner working 
+
+- We can solve below type of question - </br>
+
+#### Q. - Why python automatic create `__pycache__` folder & under __pycache__  `----.pyc` file how to add it? What happen after delete it? After auto create python? our python code run without that file? 
+       
+### Behind the scene inner work of python - </br>
+
+- We can use 1stly interpreter or software & whats script can we run? e.g. chai.py
+- After .py file complete it's instruction python can make `Byte Code mostly are hidden`. Some case byte code are visible at import time are easily visible.
+- thats reason we can seen __pycache__ folder.
+- 1st time we can run code it also created but hidden.
+- `----.pyc` is our main file. Thats our  `Byte Code`
+  -  After python installation `Python VM` that `Python Virtual Machine` also installed.
+  -  That VM as `actually run our code`.
+-  Thats `Byte Code` that fetch under `Python VM` & run our code in under Python VM.
+
+5 min
+
 
 
