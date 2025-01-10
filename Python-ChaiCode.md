@@ -134,9 +134,50 @@ chai("ginger tea")
 - `----.pyc` is our main file. Thats our  `Byte Code`
   -  After python installation `Python VM` that `Python Virtual Machine` also installed.
   -  That VM as `actually run our code`.
--  Thats `Byte Code` that fetch under `Python VM` & run our code in under Python VM.
+-  Thats `Byte Code` that fetch under `Python VM` & run our code in under `Python VM`.
 
-5 min
+> NOTE* - <br>
+> - While python code  running <i>not used of any thread, loops, queue</i>.
+> - Simple creates `Byte Code` after it directly go's in `Python Virtual Machine` & `Run` python code.
+
+
+1] Compile to Byte Code <i>(compile is tech jargon prnounce or technological term)</i> -
+   - Actually our python code convert in byte code is `compiled down` that's `Interpretation term`.
+   - `Byte Code` : `Low level code`(not a machine code) with platform independent(its only required python VM for run).
+   - `Byte Code` : runs faster. becz, checks, syntax, parsing are done mostly(not 100% done but mostly done) that reasons <b>Byte Code faster run as compared to script</b>.
+     - That's reasons <b>python prefer Byte codes</b>.
+   - Byte code is `----.pyc` --> that acutally our `Compiled python`.
+   - `Compiled python` : is also called as `Frozon Binaries`.
+   - Frozon Binaries -
+     - `Frozon Binaries` is not mean that --> `----.pyc`(platform independent byte code) not to used directly to run on Windows or MAC, that is differnt step.
+     - Becz, that's step is final output. that time also required `Frozon Binaries` but, with us we also required `independent machines` that also produces .exe like code & in python option are also available that create .exe code.
+     - That's major role of  `Frozon Binaries`.
+
+2] `__pycache__` -
+  - Sometime when we write softwares that time `__pycache__` is delete & reconstruct & also make its version.
+  - When many time we can make changes in code, that not to go on our main folder becz, `at main more file is not good`.
+  - That's reason of files organization by python created system folder(`__pycache__`.) that useful for python.
+  - `__pycache__` : that folder indicates that `they are useful for python internal working uses`.
+
+> NOTE* -  That's indicates importance for python internal or programmer also feed for python.
+
+3] Source Change & Python Version - 
+  - hello_chai. cpython-312.pyc
+  - While changes our source code programming language use diffing algorithm (means difference finding algorithm).
+  - Diffing algorithm that compare `old source .pyc to new source code .pyc` what changes only from it (not completely newly created).
+  - Only changes are goes on `new .pyc` file. i.e. similar of GIT only push files changed source code.
+  - `Python Version` : cpython(standard python cpython interpretation), when created .pyc is importance of python version.
+  - `cpython-312.pyc` : that python 3.12 version is currently in system, that naming created by logically.
+  - That means our python `byte code` build on `version 3.12` that used `cpython` of standard python that form came is .pyc `Frozon Binaries`.
+
+- That `.pyc` files are works only for imported files & not for top level files(top level means all over under folder only 1 file present & we not used any importing).
+- For top level files(only 1 file) we not required high level optimization.
+
+<br>
+
+#### PVM (Python Virtual Machine) -
+- 
+
 
 
 
