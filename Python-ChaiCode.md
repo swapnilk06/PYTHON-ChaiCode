@@ -172,8 +172,10 @@ chai("ginger tea")
 
 - That `.pyc` files are works only for imported files & not for top level files(top level means all over under folder only 1 file present & we not used any importing).
 - For top level files(only 1 file) we not required high level optimization.
-
 <br>
+
+`(27-1-25)`
+
 
 #### PVM (Python Virtual Machine) -
 - 
