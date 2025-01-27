@@ -8,3 +8,4 @@ All core python from Chai Aur Code Youtube(29 lessons)
 
 ### 1 - Intro : Python Language Foundation
 ### 2 - Best Way To Install Python 
+### 3 - Python inner working
